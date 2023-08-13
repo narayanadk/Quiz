@@ -84,16 +84,16 @@ int main()
      home:
      system("cls");
      count=0;
-     for(i=1;i<=3;i++){
+     for(i=1;i<=5;i++){
     	system("cls");
      	r1=i;
 
      switch(r1)
 		{
 		case 1:
-		printf("\n\nWhich of the following is a Palindrome number?");
-		printf("\n\nA.42042\t\tB.101010\n\nC.23232\t\tD.01234");
-		if (toupper(getch())=='C'){
+		printf("\n\n Who is Known as the first scientist of Nepal?");
+		printf("\n\nA.Mahabir Pun\t\tB.Gehendra Shumsher\n\nC.Sanduk Ruit\t\tD.Lujendra Ojha");
+		if (toupper(getch())=='B'){
 			    printf("\n\nCorrect!!!");
 				count++;
 			    getch();
@@ -101,14 +101,14 @@ int main()
 }
 		else
 		       {
-		        	printf("\n\nWrong!!! The correct answer is C.23232");
+		        	printf("\n\nWrong!!! The correct answer is B.Gehendra Shumsher");
 		        	getch();
 		       		break;
 		       }
 
         case 2:
-		printf("\n\n\nThe country with the highest environmental performance index is...");
-		printf("\n\nA.France\t\tB.Denmark\n\nC.Switzerland\t\tD.Finland");
+		printf("\n\n\nWhat color are the goalposts in football?");
+		printf("\n\nA.White\t\tB.Grey\n\nC.Yellow\t\tD.Orange");
 		if (toupper(getch())=='C'){
 				printf("\n\nCorrect!!!");
 				count++;
@@ -116,29 +116,29 @@ int main()
 				break;
 			}
 		else{
-				printf("\n\nWrong!!! The correct answer is C.Switzerland");
+				printf("\n\nWrong!!! The correct answer is C.Yellow");
 		       	getch();
 		       	break;
 			}
 
         case 3:
-		printf("\n\n\nWhich animal laughs like human being?");
-		printf("\n\nA.Polar Bear\t\tB.Hyena\n\nC.Donkey\t\tD.Chimpanzee");
-		if (toupper(getch())=='B'){
+		printf("\n\n\n Who is the first Miss Nepal?");
+		printf("\n\nA.Ruvi Rana\t\tB.Malvika Subba\n\nC.Sudha Shakya\t\tD.Namrata Shrestha");
+		if (toupper(getch())=='A'){
 			printf("\n\nCorrect!!!");
 			count++;
 			getch();
 			break;
 			}
 		else{
-			   printf("\n\nWrong!!! The correct answer is B.Hyena");
+			   printf("\n\nWrong!!! The correct answer is A.Ruvi Rana");
 		       getch();
 		       break;
 			}
 
         case 4:
-		printf("\n\n\nWho was awarded the youngest player award in Fifa World Cup 2006?");
-		printf("\n\nA.Wayne Rooney\t\tB.Lucas Podolski\n\nC.Lionel Messi\t\tD.Christiano Ronaldo");
+		printf("\n\n\nWhich crop is taken as the first cash crop in the world?");
+		printf("\n\nA.Coffee\t\tB.Tea\n\nC.Cardamom\t\tD.Tobacco");
 		if (toupper(getch())=='B'){
 			printf("\n\nCorrect!!!");
 			count++;
@@ -147,43 +147,28 @@ int main()
 			}
 			 
 		else{
-			   printf("\n\nWrong!!! The correct answer is B.Lucas Podolski");
+			   printf("\n\nWrong!!! The correct answer is B.Tea");
 		       getch();
 		       break;
 			}
 
         case 5:
-        printf("\n\n\nWhich is the third highest mountain in the world?");
-        printf("\n\nA.Mt. K2\t\tB.Mt. Kanchanjungha\n\nC.Mt. Makalu\t\tD.Mt. Kilimanjaro");
-        if (toupper(getch())=='B'){
+        printf("\n\n\nWhat does ‘Love Waves’ relate to?");
+        printf("\n\nA.Disease\t\tB.Radio Signal\n\nC.Communication\t\tD.Earthquake");
+        if (toupper(getch())=='D'){
 			  	printf("\n\nCorrect!!!");
 			   	count++;
                	getch();
             	break;
 				}
         else{
-			   printf("\n\nWrong!!! The correct answer is B.Mt. Kanchanjungha");
+			   printf("\n\nWrong!!! The correct answer is D.Earthquake");
 		       getch();
 		       break;
 			}
-
-        case 6:
-		printf("\n\n\nWhat is the group of frogs known as?");
-		printf("\n\nA.A traffic\t\tB.A toddler\n\nC.A police\t\tD.An Army");
-		if (toupper(getch())=='D' ){
-			printf("\n\nCorrect!!!");
-			count++;
-			getch();
-			break;
 			}
-		else{
-		 	   printf("\n\nWrong!!! The correct answer is D.An Army");
-		       getch();
-		       break;
-			     	}
-				}
 		    }
-	if(count>=2){
+	if(count>=3){
 	goto test;
 	}
 	else{
@@ -201,7 +186,7 @@ int main()
 		}
 		game:
      countr=0;
-     for(i=1;i<=10;i++){
+     for(i=1;i<=20;i++){
 	 system("cls");
      r=i;
 
@@ -521,22 +506,6 @@ int main()
 				}
 		else{
 				printf("\n\nWrong!!! The correct answer is B.Valves");
-				getch();
-				goto score;
-		       	break;
-			}
-
-		case 21:
-		printf("\n\n\nOzone plate is being destroyed regularly because of____ ?");
-		printf("\n\nA.L.P.G\t\tB.Nitrogen\n\nC.Methane\t\tD. C.F.C");
-		if (toupper(getch())=='D'){
-				printf("\n\nCorrect!!!");
-				countr++; 
-				getch();
-				break;
-				}
-		else{
-				printf("\n\nWrong!!! The correct answer is D. C.F.C");
 				getch();
 				goto score;
 		       	break;
