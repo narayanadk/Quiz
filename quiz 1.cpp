@@ -177,12 +177,12 @@ int main()
 			break;
 			}
 		else{
-			   printf("\n\nWrong!!! The correct answer is D.An Army");
+		 	   printf("\n\nWrong!!! The correct answer is D.An Army");
 		       getch();
 		       break;
-			   }
-			   }
-		       }
+			     }
+			  }
+		       	}
 
 	if(count>=2){
 	goto test;
