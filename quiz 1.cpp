@@ -53,8 +53,7 @@ int main()
 	}
 	else if (choice=='Q')
 	exit(1);
-    else if(choice=='S')
-    {
+    else if(choice=='S'){
     	system("cls");
     	printf("\n\n\n\n\n\n\n\n\n\n\t\t\tEnter Your Name\n:");
      	gets(playername);
@@ -75,23 +74,19 @@ int main()
     printf("\n\n\t!!!!!!!!!!!!! ALL THE BEST !!!!!!!!!!!!!");
     printf("\n\n\n Press Y  to start the game!\n");
     printf("\n Press any other key to return to the main menu!");
-    if (toupper(getch())=='Y')
-		{
+    if (toupper(getch())=='Y'){
 		    goto home;
         }
-	else
-		{
+	else{
         goto mainhome;
-       system("cls");
+       	system("cls");
        }
-
      home:
      system("cls");
      count=0;
-     for(i=1;i<=3;i++)
-     {
-    system("cls");
-     r1=i;
+     for(i=1;i<=3;i++){
+    	system("cls");
+     	r1=i;
 
      switch(r1)
 		{
@@ -192,8 +187,7 @@ int main()
 	if(count>=2){
 	goto test;
 	}
-	else
-	{
+	else{
 	system("cls");
 	printf("\n\nSORRY YOU CANNOT PROCEED FORWARD. NOT ENOUGH POINTS. BETTER LUCK NEXT TIME!!");
 	getch();
@@ -203,7 +197,7 @@ int main()
      system("cls");
      printf("\n\n\t*** CONGRATULATION %s you are eligible to play the Game ***",playername);
      printf("\n\n\n\n\t!Press any key to Start the Game!");
-     if(toupper(getch())=='p')	{
+     if(toupper(getch())=='p'){
 		goto game;
 		}
 		game:
@@ -234,111 +228,154 @@ int main()
 		printf("\n\n\nStudy of Earthquake is called............,");
 		printf("\n\nA.Seismology\t\tB.Cosmology\n\nC.Orology\t\tD.Etimology");
 		if (toupper(getch())=='A'){
-			printf("\n\nCorrect!!!");countr++;getch();
+			printf("\n\nCorrect!!!");
+			countr++;
+			getch();
 			break;
 			}
-		else
-		       {printf("\n\nWrong!!! The correct answer is A.Seismology");getch();
-		      goto score;
-		       break;
-		       }
+		else{
+			   	printf("\n\nWrong!!! The correct answer is A.Seismology");
+				getch();
+		      	goto score;
+		       	break;
+		    }
 
         case 3:
 		printf("\n\n\nAmong the top 10 highest peaks in the world, how many lie in Nepal? ");
 		printf("\n\nA.6\t\tB.7\n\nC.8\t\tD.9");
-		if (toupper(getch())=='C')
-			{printf("\n\nCorrect!!!");countr++;getch();
-			 break;}
-		else
-		       {printf("\n\nWrong!!! The correct answer is C.8");getch();
+		if (toupper(getch())=='C'){
+			printf("\n\nCorrect!!!");
+			countr++;
+			getch();
+			break;
+			}
+		else{
+			   printf("\n\nWrong!!! The correct answer is C.8");
+			   getch();
 		       goto score;
-		       break;}
+		       break;
+			}
 
         case 4:
 		printf("\n\n\nThe Laws of Electromagnetic Induction were given by?");
 		printf("\n\nA.Faraday\t\tB.Tesla\n\nC.Maxwell\t\tD.Coulomb");
-		if (toupper(getch())=='A')
-			{printf("\n\nCorrect!!!");countr++;getch();
-			 break;}
-		else
-		       {
-                printf("\n\nWrong!!! The correct answer is A.Faraday");getch();
-		       goto score;
-		       break;
-		       }
+		if (toupper(getch())=='A'){
+			printf("\n\nCorrect!!!");
+			countr++;
+			getch();
+			break;
+			}
+		else{
+            	printf("\n\nWrong!!! The correct answer is A.Faraday");
+				getch();
+		       	goto score;
+		      	break;
+		    }
 
         case 5:
 		printf("\n\n\nIn what unit is electric power measured?");
 		printf("\n\nA.Coulomb\t\tB.Watt\n\nC.Power\t\tD.Units");
 		if (toupper(getch())=='B'){
-			printf("\n\nCorrect!!!");countr++;getch();
+			printf("\n\nCorrect!!!");
+			countr++;
+			getch();
 			break;
 			}
-		else
-		       {
+		else{
 		           printf("\n\nWrong!!! The correct answer is B.Power");
-		       	getch();
-		       	goto score;
-		       	break;
+		       		getch();
+		       		goto score;
+		       		break;
 		       }
 
 		case 6:
 		printf("\n\n\nWhich element is found in Vitamin B12?");
 		printf("\n\nA.Zinc\t\tB.Cobalt\n\nC.Calcium\t\tD.Iron");
-		if (toupper(getch())=='B' )
-			{printf("\n\nCorrect!!!");countr++;getch();
-			 break;}
-		else
-		       {printf("\n\nWrong!!! The correct answer is B.Cobalt");goto score;
+		if (toupper(getch())=='B'){
+			printf("\n\nCorrect!!!");
+			countr++;
+			getch();
+			break;
+			}
+		else{
+			   printf("\n\nWrong!!! The correct answer is B.Cobalt");
+			   goto score;
 		       getch();
-		       break;}
+		       break;
+			   }
 
         case 7:
 		printf("\n\n\nWhat is the National Name of Japan?");
 		printf("\n\nA.Polska\t\tB.Hellas\n\nC.Drukyul\t\tD.Nippon");
-		if (toupper(getch())=='D')
-			{printf("\n\nCorrect!!!");countr++;getch();
-			 break;}
-		else
-		       {printf("\n\nWrong!!! The correct answer is D.Nippon");getch();
-		       goto score;
-		       break;}
+		if (toupper(getch())=='D'){
+				printf("\n\nCorrect!!!");
+				countr++;
+				getch();
+			 	break;
+			}
+		else{
+				printf("\n\nWrong!!! The correct answer is D.Nippon");
+				getch();
+		       	goto score;
+		      	break;}
 
         case 8:
 		printf("\n\n\nHow many times a piece of paper can be folded at the most?");
 		printf("\n\nA.6\t\tB.7\n\nC.8\t\tD.Depends on the size of paper");
-		if (toupper(getch())=='B')
-			{printf("\n\nCorrect!!!");countr++;getch(); break;}
-		else
-		       {printf("\n\nWrong!!! The correct answer is B.7");getch();
-		       goto score;
-		       break;}
+		if (toupper(getch())=='B'){
+				printf("\n\nCorrect!!!");
+				countr++;
+				getch();
+				break;
+			}
+		else{
+				printf("\n\nWrong!!! The correct answer is B.7");
+				getch();
+		       	goto score;
+		       	break;
+			}
 
         case 9:
 		printf("\n\n\nWhat is the capital of Denmark?");
 		printf("\n\nA.Copenhagen\t\tB.Helsinki\n\nC.Ajax\t\tD.Galatasaray");
-		if (toupper(getch())=='A')
-			{printf("\n\nCorrect!!!");countr++; getch();
-			break;}
-		else
-		       {printf("\n\nWrong!!! The correct answer is A.Copenhagen");getch();
-		       goto score;
-		       break;}
+		if (toupper(getch())=='A'){
+				printf("\n\nCorrect!!!");
+				countr++;
+				getch();
+				break;
+			}
+		else{
+				printf("\n\nWrong!!! The correct answer is A.Copenhagen");
+				getch();
+		       	goto score;
+		       	break;
+			}
 
         case 10:
 		printf("\n\n\nWhich is the longest River in the world?");
 		printf("\n\nA.Nile\t\tB.Koshi\n\nC.Ganga\t\tD.Amazon");
-		if (toupper(getch())=='A')
-			{printf("\n\nCorrect!!!");countr++;getch(); break;}
-		else
-		       {printf("\n\nWrong!!! The correct answer is A.Nile");getch();break;goto score;}
+		if (toupper(getch())=='A'){
+				printf("\n\nCorrect!!!");
+				countr++;
+				getch();
+				break;
+			}
+		else{
+				printf("\n\nWrong!!! The correct answer is A.Nile");
+				getch();
+				break;
+				goto score;
+			}
 
         case 11:
 		printf("\n\n\nWhat is the color of the Black Box in aeroplanes?");
 		printf("\n\nA.White\t\tB.Black\n\nC.Orange\t\tD.Red");
-		if (toupper(getch())=='C')
-			{printf("\n\nCorrect!!!");countr++;getch();
-			 break;}
+		if (toupper(getch())=='C'){
+				printf("\n\nCorrect!!!");
+				countr++;
+				getch();
+				break;
+			}
 		else
               {printf("\n\nWrong!!! The correct answer is C.Orange");getch();
               break;goto score;}
