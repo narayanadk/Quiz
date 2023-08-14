@@ -209,8 +209,24 @@ int main()
 			}
 
 		case 2:
-		printf("\n\n\nStudy of Earthquake is called............,");
-		printf("\n\nA.Seismology\t\tB.Cosmology\n\nC.Orology\t\tD.Etimology");
+		printf("\n\n\nWhere is International Mountain Museum located?");
+		printf("\n\nA.New York\t\tB.Tibet\n\nC.Swizerland\t\tD.Pokhara");
+		if (toupper(getch())=='D'){
+			printf("\n\nCorrect!!!");
+			countr++;
+			getch();
+			break;
+			}
+		else{
+			   	printf("\n\nWrong!!! The correct answer is D.Pokhara");
+				getch();
+		      	goto score;
+		       	break;
+		    }
+
+        case 3:
+		printf("\n\n\nWhich is the national animal of India?");
+		printf("\n\nA.Tiger\t\tB.Cow\n\nC.Dog\t\tD.Elephant");
 		if (toupper(getch())=='A'){
 			printf("\n\nCorrect!!!");
 			countr++;
@@ -218,15 +234,15 @@ int main()
 			break;
 			}
 		else{
-			   	printf("\n\nWrong!!! The correct answer is A.Seismology");
-				getch();
-		      	goto score;
-		       	break;
-		    }
+			   printf("\n\nWrong!!! The correct answer is A.Tiger");
+			   getch();
+		       goto score;
+		       break;
+			}
 
-        case 3:
-		printf("\n\n\nAmong the top 10 highest peaks in the world, how many lie in Nepal? ");
-		printf("\n\nA.6\t\tB.7\n\nC.8\t\tD.9");
+        case 4:
+		printf("\n\n\nWater is to a pipe as ? is to a wire.");
+		printf("\n\nA.Cord\t\tB.Gas\n\nC.Electricity\t\tD.Copper");
 		if (toupper(getch())=='C'){
 			printf("\n\nCorrect!!!");
 			countr++;
@@ -234,15 +250,15 @@ int main()
 			break;
 			}
 		else{
-			   printf("\n\nWrong!!! The correct answer is C.8");
-			   getch();
-		       goto score;
-		       break;
-			}
+            	printf("\n\nWrong!!! The correct answer is C.Electricity");
+				getch();
+		       	goto score;
+		      	break;
+		    }
 
-        case 4:
-		printf("\n\n\nThe Laws of Electromagnetic Induction were given by?");
-		printf("\n\nA.Faraday\t\tB.Tesla\n\nC.Maxwell\t\tD.Coulomb");
+        case 5:
+		printf("\n\n\n A farmer has 17 sheep; all but nine dies. How many are left?");
+		printf("\n\nA.9\t\tB.8\n\nC.7\t\tD.6");
 		if (toupper(getch())=='A'){
 			printf("\n\nCorrect!!!");
 			countr++;
@@ -250,23 +266,7 @@ int main()
 			break;
 			}
 		else{
-            	printf("\n\nWrong!!! The correct answer is A.Faraday");
-				getch();
-		       	goto score;
-		      	break;
-		    }
-
-        case 5:
-		printf("\n\n\nIn what unit is electric power measured?");
-		printf("\n\nA.Coulomb\t\tB.Watt\n\nC.Power\t\tD.Units");
-		if (toupper(getch())=='B'){
-			printf("\n\nCorrect!!!");
-			countr++;
-			getch();
-			break;
-			}
-		else{
-		           printf("\n\nWrong!!! The correct answer is B.Power");
+		           printf("\n\nWrong!!! The correct answer is A.9");
 		       		getch();
 		       		goto score;
 		       		break;
@@ -320,32 +320,32 @@ int main()
 			}
 
         case 9:
-		printf("\n\n\nWhat is the capital of Denmark?");
-		printf("\n\nA.Copenhagen\t\tB.Helsinki\n\nC.Ajax\t\tD.Galatasaray");
-		if (toupper(getch())=='A'){
+		printf("\n\n\nWhich King has been crowned king twice in Nepal?");
+		printf("\n\nA.Tribhuwan Shah\t\tB.Gyanendra Shah\n\nC.Mahendra Shah\t\tD.Birendra Shah");
+		if (toupper(getch())=='B'){
 				printf("\n\nCorrect!!!");
 				countr++;
 				getch();
 				break;
 			}
 		else{
-				printf("\n\nWrong!!! The correct answer is A.Copenhagen");
+				printf("\n\nWrong!!! The correct answer is Gyanendra Shah");
 				getch();
 		       	goto score;
 		       	break;
 			}
 
         case 10:
-		printf("\n\n\nWhich is the longest River in the world?");
-		printf("\n\nA.Nile\t\tB.Koshi\n\nC.Ganga\t\tD.Amazon");
-		if (toupper(getch())=='A'){
+		printf("\n\n\nWho wrote the song Ukali Orali Haruma sang by Tara Devi?");
+		printf("\n\nA.Tara Devi\t\tB.Narayan Gopal\n\nC.Aasha Bhosal\t\tD.Chandani Shah(Queen Aishwarya)");
+		if (toupper(getch())=='D'){
 				printf("\n\nCorrect!!!");
 				countr++;
 				getch();
 				break;
 			}
 		else{
-				printf("\n\nWrong!!! The correct answer is A.Nile");
+				printf("\n\nWrong!!! The correct answer is D.Chandani Shah(Queen Aishwarya");
 				getch();
 				break;
 				goto score;
@@ -432,8 +432,8 @@ int main()
 			}
 
 		case 16:
-		printf("\n\n\nWhat is the unit of measurement of distance between Stars?");
-		printf("\n\nA.Light Year\t\tB.Coulomb\n\nC.Nautical Mile\t\tD.Kilometer");
+		printf("\n\n\nWhen did Nepal get ODI status in Cricket?");
+		printf("\n\nA.2018 AD\t\tB.2020 AD\n\nC.2022 AD\t\tD.2019 AD");
 		if (toupper(getch())=='A'){
 				printf("\n\nCorrect!!!");
 				countr++;
@@ -441,15 +441,15 @@ int main()
 				break;
 			}
 		else{
-				printf("\n\nWrong!!! The correct answer is A.Light Year");
+				printf("\n\nWrong!!! The correct answer is A.2018 AD");
 				getch();
 		       	goto score;
 		       	break;
 			}
 
 		case 17:
-		printf("\n\n\nThe country famous for Samba Dance is........");
-		printf("\n\nA.Brazil\t\tB.Venezuela\n\nC.Nigeria\t\tD.Bolivia");
+		printf("\n\n\nIn which movie did Rajesh Hamal say his famous line Shankhar Hu Ma Shankhar!?");
+		printf("\n\nA.Deuta\t\tB.Yug Dekhi Yug Samma\n\nC.Basanti\t\tD.Chino");
 		if (toupper(getch())=='A'){
 					printf("\n\nCorrect!!!");
 					countr++;
@@ -457,47 +457,47 @@ int main()
 					break;
 				}
 		else{
-			   printf("\n\nWrong!!! The correct answer is A.Brazil");
+			   printf("\n\nWrong!!! The correct answer is A.Deuta");
 			   getch();
 			   goto score;
 		       break;
 			}
 
 		case 18:
-		printf("\n\n\nWind speed is measure by__________?");
-		printf("\n\nA.Lysimeter\t\tB.Air vane\n\nC.Hydrometer\t\tD.Anemometer\n\n");
-		if (toupper(getch())=='D'){
+		printf("\n\n\nWhat issue does the song ‘Hataridai Batasidai’ by Saajan Raj Vaidya portray?");
+		printf("\n\nA.Brain Drain\t\tB.Homosexuality\n\nC.Racism\t\tD.Harrashment\n\n");
+		if (toupper(getch())=='B'){
 				printf("\n\nCorrect!!!");
 				countr++;
 				getch();
 				break;
 			}
 		else{
-				printf("\n\nWrong!!! The correct answer is D.Anemometer");
+				printf("\n\nWrong!!! The correct answer is B.Homosexuality");
 				getch();
 				goto score;
 		       	break;
 			}
 
 		case 19:
-		printf("\n\n\nWhich city in the world is popularly known as The City of Temple?");
-		printf("\n\nA.Delhi\tB.Bhaktapur\n\nC.Kathmandu\tD.Agra\n\n");
-		if (toupper(getch())=='C'){
+		printf("\n\n\nWho was the famous Nepalese literature who was born and died on the same date?");
+		printf("\n\nA.Moti Ram Bhatta\tB.Laxmi Pd. Devkota\n\nC.Bhimnidhi Tiwari\tD.B.P. Koirala\n\n");
+		if (toupper(getch())=='A'){
 				printf("\n\nCorrect!!!");
 				countr++; 
 				getch();
 				break;
 			}
 		else{
-			   printf("\n\nWrong!!! The correct answer is C.Kathmandu");
+			   printf("\n\nWrong!!! The correct answer is A.Moti Ram Bhatta");
 			   getch();
 			   goto score;
 		       break;
 			   }
 
 		case 20:
-		printf("\n\n\nWhich hardware was used in the First Generation Computer?");
-		printf("\n\nA.Transistor\t\tB.Valves\n\nC.I.C\t\tD.S.S.I");
+		printf("\n\n\nWhen did Gyanendra Malla declared retirement from cricket?");
+		printf("\n\nA.3 August 2023\t\tB.4 August 2023\n\nC.5 August 2023\t\tD.2 August 2023");
 		if (toupper(getch())=='B'){
 				printf("\n\nCorrect!!!");
 				countr++;
@@ -505,7 +505,7 @@ int main()
 				break;
 				}
 		else{
-				printf("\n\nWrong!!! The correct answer is B.Valves");
+				printf("\n\nWrong!!! The correct answer is B.4 August 2023");
 				getch();
 				goto score;
 		       	break;
@@ -569,7 +569,6 @@ void help(){
 	system("cls");
     printf("\n\n                              HELP");
     printf("\n -------------------------------------------------------------------------");
-printf("\n ------------------  Welcome %s to The Quiz Game --------------------------",playername);
     printf("\n\nWorried about the rules? Its simple:");
     printf("\n -------------------------------------------------------------------------");
     printf("\n >> There are 2 rounds in this Quiz Game: Selection Round & Quizzers Round");
