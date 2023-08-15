@@ -153,7 +153,7 @@ int main()
 			}
 
         case 5:
-        printf("\n\n\nWhat does ‘Love Waves’ relate to?");
+        printf("\n\n\nWhat does 'Love waves' relate to?");
         printf("\n\nA.Disease\t\tB.Radio Signal\n\nC.Communication\t\tD.Earthquake");
         if (toupper(getch())=='D'){
 			  	printf("\n\nCorrect!!!");
